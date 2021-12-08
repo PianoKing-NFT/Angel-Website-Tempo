@@ -22,7 +22,7 @@ export default function Home() {
           <img src="images/cloud1.png" className="z-10 w-72 h-24 m-8"></img>
           <img src="images/cloud4.png" className="z-10 w-48 h-16 m-4"></img>
         </div>
-          <div className="block h-auto w-screen justify-center w-xl text-center align-center text-white">
+          <div className="block h-auto w-auto justify-center w-xl text-center align-center text-white">
             <button className="bg-darkgrey m-12 p-8 rounded-full text-3xl mt-32 mb-32">
               <div className="w-auto flex justify-center align-center text-white">
                 <p className="font-extrabold">ACTIVATE YOUR POWER</p>
@@ -32,7 +32,7 @@ export default function Home() {
             <p className="h-50 w-50 p-sm z-20 text-2xl">Your power : By clicking on the top button, or by clicking <a href="url" className="text-darkgrey">here</a>, if you possess the angel nft, you are going to activate your power. Your power is to invite 12 random ntf-holders, excluding you.</p>
           </div>
           <div className="flex h-auto w-2/5">
-            <img src="images/cloud2.png" className="z-10 w-58 h-28 absolute right-0 center-0 m-5"></img>
+            <img src="images/cloud2.png" className="z-10 w-58 h-28"></img>
           </div>
         </div>
       </div>
