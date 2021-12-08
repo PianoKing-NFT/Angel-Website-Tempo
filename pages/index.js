@@ -8,12 +8,12 @@ export default function Home() {
   return (
     <div className="container">
       <div className="w-screen h-screen bg-opacity-85 z-0" id="background">
-        <div className="h-auto w-full text-center flex justify-evenly">
-          <img src="images/pianoking.png" className="h-28 m-8 w-auto"></img>
-          <img src="images/Logo-Negatif.png" className="h-28 mt-8 w-auto"></img>
+        <div className="h-auto w-full text-center flex justify-between">
+          <img src="images/pianoking.png" className="h-24 m-8 w-auto"></img>
+          <img src="images/Logo-Negatif.png" className="h-24 mt-8 w-auto"></img>
           <button className="bg-secondary w-auto h-16 border-8 border-primary text-xs top-40 right-40 m-8 pl-4 pr-4" onClick={buttonClick} type="button" id="discordButton">
             <div className="w-auto flex justify-center align-center">
-              <p className="font-extrabold">JOIN THE KINGDOM</p>
+              <p className="font-extrabold text-base">JOIN THE KINGDOM</p>
             </div>
           </button>
         </div>
@@ -31,7 +31,7 @@ export default function Home() {
             <p className="h-50 w-50 p-sm z-20 text-2xl">If you are here, it means that you are the proud owner of the Angel-NFT, congratulations !</p>
             <p className="h-50 w-50 p-sm z-20 text-2xl">Your power : By clicking on the top button, or by clicking <a href="url" className="text-darkgrey">here</a>, if you possess the angel nft, you are going to activate your power. Your power is to invite 12 random ntf-holders, excluding you.</p>
           </div>
-          <div className="flex h-auto w-2/5">
+          <div className="flex h-auto w-2/5 flex justify-end p-8">
             <img src="images/cloud2.png" className="z-10 w-58 h-28"></img>
           </div>
         </div>
