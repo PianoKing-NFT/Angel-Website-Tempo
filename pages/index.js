@@ -8,10 +8,10 @@ export default function Home() {
   return (
     <div className="container">
       <div className="w-screen h-screen bg-opacity-85 z-0" id="background">
-        <div className="h-auto w-full text-center inline-flex justify-between">
-          <img src="images/pianoking.png" className="h-28 m-4 mr-40"></img>
-          <img src="images/Logo-Negatif.png" className="h-28 m-4"></img>
-          <button className="bg-secondary w-72 h-16 border-8 border-primary text-xs top-40 right-40 m-8" onClick={buttonClick} type="button" id="discordButton">
+        <div className="h-auto w-full text-center flex justify-evenly">
+          <img src="images/pianoking.png" className="h-28 m-8 w-auto"></img>
+          <img src="images/Logo-Negatif.png" className="h-28 mt-8 w-auto"></img>
+          <button className="bg-secondary w-auto h-16 border-8 border-primary text-xs top-40 right-40 m-8 pl-4 pr-4" onClick={buttonClick} type="button" id="discordButton">
             <div className="w-auto flex justify-center align-center">
               <p className="font-extrabold">JOIN THE KINGDOM</p>
             </div>
