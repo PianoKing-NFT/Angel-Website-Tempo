@@ -28,7 +28,7 @@ export default function Home() {
               </div>
             </button>
             <p className="h-50 w-50 p-sm z-20 text-2xl">If you are here, it means that you are the proud owner of the Angel-NFT, congratulations !</p>
-            <p className="h-50 w-50 p-sm z-20 text-2xl">Your power : By clicking on the top button, or by clicking <a href="url" className="text-darkblue">here</a>, if you possess the angel nft, you are going to activate your power. Your power is to invite 12 random ntf-holders, excluding you.</p>
+            <p className="h-50 w-50 p-sm z-20 text-2xl">Your power : By clicking on the top button, or by clicking <a href="url" className="text-darkgrey">here</a>, if you possess the angel nft, you are going to activate your power. Your power is to invite 12 random ntf-holders, excluding you.</p>
           </div>
           <div className="flex h-auto w-2/5">
             <img src="images/cloud2.png" className="z-10 w-48 h-12 absolute right-0 center-0 m-5"></img>
