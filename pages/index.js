@@ -22,8 +22,8 @@ export default function Home() {
           <img src="images/cloud1.png" className="z-10 w-72 h-24 m-10"></img>
         </div>
           <div className="block h-auto w-screen justify-center w-xl text-center align-center text-white">
-            <button className="bg-secondary m-12 p-8 rounded-full text-3xl mt-32 mb-32">
-              <div className="w-auto flex justify-center align-center text-black">
+            <button className="bg-darkgrey m-12 p-8 rounded-full text-3xl mt-32 mb-32">
+              <div className="w-auto flex justify-center align-center text-white">
                 <p className="font-extrabold">ACTIVATE YOUR POWER</p>
               </div>
             </button>

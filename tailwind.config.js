@@ -35,6 +35,7 @@ module.exports = {
         lightblue: "#ccf0ff",
         primary: "#C8C8C8",
         secondary: "#E5E5E5",
+        darkgrey: "#939393"
       },
     },
   },
