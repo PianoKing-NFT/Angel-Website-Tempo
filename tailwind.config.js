@@ -4,6 +4,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      textColor: {
+        darkblue: '#8ddeff',
+      },
       fontSize: {
         'xs': '1.3rem'
       },
