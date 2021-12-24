@@ -1,9 +1,5 @@
 import buttonClick from "../scripts/button";
 
-//function buttonClick() {
-//  location.href = "https://discord.gg/6EG8CSt7Aw"
-//}
-
 export default function Home() {
   return (
     <div className="container">
